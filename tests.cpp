@@ -92,7 +92,12 @@ int getHorizontalPadding(string tag) {
     string value = getAttributeValue(tag, "padding");
     if (value == "") return 0;  // no padding attribute
 
-    
+    size_t space = value.find(' ');
+    if (space == string::npos) {
+        // only one value -> applies to both directions
+        return stoi(value.substr(0, value.size() - 2));
+    } else {
+      
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
