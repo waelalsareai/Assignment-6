@@ -75,7 +75,7 @@ int getImageHeight(string tag) {
   string value = getAttributeValue(tag, "height");
   int num = stoi(value.substr(0, value. size () - 2));
 return num;
-{
+}
 
 // Get vertical padding (first number in padding="10px 5px")
 int getVerticalPadding(string tag) {
