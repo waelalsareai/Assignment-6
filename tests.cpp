@@ -83,7 +83,9 @@ int getVerticalPadding(string tag) {
   if (value == "") return 0, // no padding attribute
   
   size_t space = value.find (' ');
-  string first = (space)
+  string first = (space == string::npos) ? value : value.substr(0, space);
+  return stoi(first,substr(0, first.size() - 2));
+}
 
 //Extra horizontal padding (second number if present)
 int getHorizontalPadding(string tag) {
