@@ -77,12 +77,7 @@ int getImageHeight(string tag) {
 return num;
 {
 
-// Extract vertical padding (first number in padding="10px 5px")
-int getVerticalPadding(string tag) {
-  string pad = getAttributeValue(tag, "padding");
-  if (pad == "") return 0;
-  return stoi(pad);
-}
+// 
 
 //Extra horizontal padding (second number if present)
 int getHorizontalPadding(string tag) {
