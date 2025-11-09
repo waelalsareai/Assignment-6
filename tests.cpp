@@ -65,7 +65,7 @@ string underscoresToSpaces(string str) {
 
 // Extract width="100px" -> returns 100
 int getImageWidth(string tag) {
-  
+  string value 
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
