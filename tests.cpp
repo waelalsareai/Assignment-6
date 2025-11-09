@@ -37,6 +37,8 @@ string getAttributeValue(const string& tag, const string& name) {
 string getTagName(const string& tag) {
   size_t start = tag.find("<") + 1;
 size_t end = tag.find(" ");
+if (end == string::npos)
+    end = tag.find(">");
 
 
 // string getImageSource(string tag)
