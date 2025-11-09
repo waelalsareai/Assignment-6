@@ -47,7 +47,7 @@ bool isSelfClosing(const string& tag) {
     return tag[tag.size() - 2] == '/';
 }
 
-
+//
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
