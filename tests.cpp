@@ -70,21 +70,21 @@ int getImageWidth(string tag) {
 return num;
 }
 
-// Extra height="200px" -> rerturns 200
+// Extract height="200px" -> rerturns 200
 int getImageHeight(string tag) {
   string value = getAttributeValue(tag, "height");
   int num = stoi(value.substr(0, value. size () - 2));
 return num;
 {
 
-// Extra vertical padding (first number in padding="10px 5px")
+// Extract vertical padding (first number in padding="10px 5px")
 int getVerticalPadding(string tag) {
   string pad = getAttributeValue(tag, "padding");
   if (pad == "") return 0;
   return stoi(pad);
 }
 
-//
+//Extra
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
