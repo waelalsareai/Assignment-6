@@ -93,7 +93,7 @@ int getHorizontalPadding(string tag) {
   return stoi(pad.substr(space + 1));
 }
 
-  // string getImageSource(string tag)
+// string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
 
