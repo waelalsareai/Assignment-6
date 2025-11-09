@@ -77,7 +77,10 @@ int getImageHeight(string tag) {
 return num;
 {
 
-// Extra vertical padding
+// Extra vertical padding (first number in padding="10px 5px")
+int getVerticalPadding(string tag) {
+  string pad = getAttributeValue(tag, "padding");
+  if
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
