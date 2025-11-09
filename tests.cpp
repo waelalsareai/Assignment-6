@@ -42,6 +42,7 @@ if (end == string::npos)
 return tag.substr(start, end - start);
 }
 
+
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
