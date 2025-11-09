@@ -70,7 +70,7 @@ int getImageWidth(string tag) {
 return num;
 }
 
-
+// Extra
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
