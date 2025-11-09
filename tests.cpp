@@ -66,7 +66,7 @@ string underscoresToSpaces(string str) {
 // Extract width="100px" -> returns 100
 int getImageWidth(string tag) {
   string value = getAttributeValue(tag, "width");
-  int num = stoi(value.substr)
+  int num = stoi(value.substr(0, value.size() - 2));
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
