@@ -103,6 +103,9 @@ int height = getImageHeight(tag);
 int padV   = getVerticalPadding(tag);
 int padH   = getHorizontalPadding(tag);
 
+int finalW = width  + 2 * padH;  // left + right
+int finalH = height + 2 * padV;  // top + bottom
+
 
     // Some sample inputs you can copy-paste to test your main
     // <image source="puppy.jpg" width="100px" height="200px">
