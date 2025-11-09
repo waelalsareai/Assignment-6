@@ -92,6 +92,7 @@ int getHorizontalPadding(string tag) {
     string value = getAttributeValue(tag, "padding");
     if (value == "") return 0;  // no padding attribute
 
+    
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
