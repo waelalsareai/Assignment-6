@@ -76,7 +76,8 @@ int getImageHeight(string tag) {
   int num = stoi(value.substr(0, value. size () - 2));
 return num;
 {
-  
+
+
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
@@ -148,4 +149,4 @@ const string EXAMPLE_3 = "<image width=\"400px\" height=\"250px\" padding=\"10px
 //   CHECK(getHorizontalPadding(EXAMPLE_1) == 0);
 //   CHECK(getHorizontalPadding(EXAMPLE_2) == 10);
 //   CHECK(getHorizontalPadding(EXAMPLE_3) == 5);
-// }
+//{}
