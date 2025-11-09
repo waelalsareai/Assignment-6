@@ -71,7 +71,11 @@ return num;
 }
 
 // Extra height="200px" -> rerturns 200
-int get
+int getImageHeight(string tag) {
+  string value = getAttributeValue(tag, "height");
+  int num = stoi(value.substr(0, value. size () - 2));
+return num;
+{
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
