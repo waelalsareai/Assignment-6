@@ -54,7 +54,8 @@ string getImageSource(string tag) {
   return value;
 }
 
-//
+// Replace underscores with spaces
+string underscoresToSpaces(string)
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
