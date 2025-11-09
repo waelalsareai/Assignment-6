@@ -82,9 +82,9 @@ int getVerticalPadding(string tag) {
   string value = getAttributeValue(tag, "padding");
   if (value == "") return 0, // no padding attribute
   
-  size_t space = value.find(' ');
-  string first = (space == string::npos) ? value : value.substr(0, space);
-  return stoi(first.substr(0, first.size() - 2));
+size_t space = value.find(' ');
+string first = (space == string::npos) ? value : value.substr(0, space);
+return stoi(first.substr(0, first.size() - 2));
 }
 
 // Get horizontal padding (second number in padding="10px 5px")
