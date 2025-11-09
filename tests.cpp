@@ -24,6 +24,9 @@ using namespace std;
 // You do NOT need to write doxygen comments for these. You may add extra helper
 // functions if you want. Work on them one at a time.
 
+// Helper: extract value of an attribute name="VALUE"
+string getAttributeValue(const string& tag, const string& name) {
+
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
