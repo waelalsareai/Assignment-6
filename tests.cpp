@@ -34,6 +34,7 @@ string getAttributeValue(const string& tag, const string& name) {
   return tag.substr(pos, endPos - pos);}
 
 // Helper: extract the tag name (e.g., img from <img src="...">)
+string getTagName(const string& tag){ 
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
