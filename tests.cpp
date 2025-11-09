@@ -56,7 +56,12 @@ string getImageSource(string tag) {
 
 // Replace underscores with spaces
 string underscoresToSpaces(string str) {
-    for (size_t i = 0)
+    for (size_t i = 0; i < str.size(); i++) {
+      if (str[i] == '_')
+      str[i] = ' ';
+    }
+    return str;
+  }
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
