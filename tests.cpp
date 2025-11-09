@@ -80,7 +80,11 @@ return num;
 // Extra vertical padding (first number in padding="10px 5px")
 int getVerticalPadding(string tag) {
   string pad = getAttributeValue(tag, "padding");
-  if
+  if (pad == "") return 0;
+  return stoi(pad);
+}
+
+//
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
