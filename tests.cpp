@@ -77,7 +77,7 @@ int getImageHeight(string tag) {
 return num;
 {
 
-
+// Extra vertical padding
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
