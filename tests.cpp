@@ -39,7 +39,8 @@ string getTagName(const string& tag) {
 size_t end = tag.find(" ");
 if (end == string::npos)
     end = tag.find(">");
-
+return tag.substr(start, end - start);
+}
 
 // string getImageSource(string tag)
 
