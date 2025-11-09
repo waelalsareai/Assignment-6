@@ -47,7 +47,9 @@ bool isSelfClosing(const string& tag) {
     return tag[tag.size() - 2] == '/';
 }
 
-//
+// Extract the value inside source="..."
+// Extract: returns "cat_pounce.gif"
+string getImageSource(string tag) {
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
