@@ -53,7 +53,7 @@ string getImageSource(string tag) {
   string value = getAttributeValue(tag, "source");
   return value;
 }
-    for (size_t i = 0; i < str.size(); i++) {
+  for (size_t i = 0; i < str.size(); i++) {
         if (str[i] == '_')
             str[i] = ' ';
     }
