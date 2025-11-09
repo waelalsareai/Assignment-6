@@ -28,7 +28,8 @@ using namespace std;
 string getAttributeValue(const string& tag, const string& name) {
     string key = name + "=\"";
   size_t pos = tag.find(key);
-
+  if (pos == string::npos) return "";
+  pos += key.length();
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
