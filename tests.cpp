@@ -35,6 +35,7 @@ string getAttributeValue(const string& tag, const string& name) {
 
 // Helper: extract the tag name (e.g., img from <img src="...">)
 string getTagName(const string& tag) {
+  
 
 // string getImageSource(string tag)
 
