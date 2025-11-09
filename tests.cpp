@@ -42,7 +42,10 @@ if (end == string::npos)
 return tag.substr(start, end - start);
 }
 
-
+// Helper: check if a tag is self-closing (like <br/> or <img/>)
+bool isSelfClosing(const string& tag) {
+    return tag[tag.size() - 2] == '/';
+}
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
