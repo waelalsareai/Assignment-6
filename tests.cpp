@@ -80,7 +80,7 @@ return num;
 // Get vertical padding (first number in padding="10px 5px")
 int getVerticalPadding(string tag) {
   string value = getAttributeValue(tag, "padding");
-  if (value == "") return 0, // no padding attribute
+  if (value == "") return 0; // no padding attribute
   
   size_t space = value.find(" ");
 string first = (space == string::npos) ? value : value.substr(0, space);
