@@ -151,12 +151,12 @@ const string EXAMPLE_3 = "<image width=\"400px\" height=\"250px\" padding=\"10px
 // }
 
  //TEST_CASE("Testing getVerticalPadding")
- {
-   cout << "5: getVerticalPadding" << endl;
-   CHECK(getVerticalPadding(EXAMPLE_1) == 0);
-   CHECK(getVerticalPadding(EXAMPLE_2) == 10);
-   CHECK(getVerticalPadding(EXAMPLE_3) == 10);
- }
+ //{
+ //  cout << "5: getVerticalPadding" << endl;
+ //  CHECK(getVerticalPadding(EXAMPLE_1) == 0);
+ //  CHECK(getVerticalPadding(EXAMPLE_2) == 10);
+ //  CHECK(getVerticalPadding(EXAMPLE_3) == 10);
+ //}
 
 // TEST_CASE("Testing getHorizontalPadding")
 // {
