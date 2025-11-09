@@ -89,7 +89,10 @@ int getHorizontalPadding(string tag) {
   string pad = getAttributeValue(tag, "padding");
   if (pad == "") return 0;
   size_t space = pad.find(' ');
-  if (space == string::npos)
+  if (space == string::npos) return stoi(pad);
+  return stoi(pad.substr(space + 1));
+}
+
   // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
