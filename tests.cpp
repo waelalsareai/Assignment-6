@@ -84,8 +84,13 @@ int getVerticalPadding(string tag) {
   return stoi(pad);
 }
 
-//Extra
-// string getImageSource(string tag)
+//Extra horizontal padding (second number if present)
+int getHorizontalPadding(string tag) {
+  string pad = getAttributeValue(tag, "padding");
+  if (pad == "") return 0;
+  size_t space = pad.find(' ');
+  if (space == string::npos)
+  // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
 
