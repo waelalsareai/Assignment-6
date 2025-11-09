@@ -96,7 +96,7 @@ int main()
     cout << "Enter a tag: ";
     string tag;
     getline(cin, tag);  // read a full line of input including spaces
-
+    
     // Some sample inputs you can copy-paste to test your main
     // <image source="puppy.jpg" width="100px" height="200px">
     // <image source="cat_pounce.gif" height="400px" width="300px" padding="10px">
