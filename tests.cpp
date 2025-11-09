@@ -30,7 +30,8 @@ string getAttributeValue(const string& tag, const string& name) {
   size_t pos = tag.find(key);
   if (pos == string::npos) return "";
   pos += key.length();
-  
+    size_t endPos = tag.find("\"", pos);
+  return tag.substr(pos, endPos - pos);
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
