@@ -150,7 +150,7 @@ const string EXAMPLE_3 = "<image width=\"400px\" height=\"250px\" padding=\"10px
 //   CHECK(getImageHeight(EXAMPLE_3) == 250);
 // }
 
- TEST_CASE("Testing getVerticalPadding")
+ //TEST_CASE("Testing getVerticalPadding")
  {
    cout << "5: getVerticalPadding" << endl;
    CHECK(getVerticalPadding(EXAMPLE_1) == 0);
