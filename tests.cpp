@@ -50,6 +50,7 @@ bool isSelfClosing(const string& tag) {
 // Extract the value inside source="..."
 // Extract: returns "cat_pounce.gif"
 string getImageSource(string tag) {
+  string value = getAttributeValue(tag, "source");
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
