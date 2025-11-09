@@ -70,7 +70,8 @@ int getImageWidth(string tag) {
 return num;
 }
 
-// Extra
+// Extra height="200px" -> rerturns 200
+int get
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
