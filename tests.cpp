@@ -97,7 +97,11 @@ int getHorizontalPadding(string tag) {
         // only one value -> applies to both directions
         return stoi(value.substr(0, value.size() - 2));
     } else {
-      
+      // take second token, remove "px"
+        string second = value.substr(space + 1);
+        return stoi(second.substr(0, second.size() - 2));
+    }
+}
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
