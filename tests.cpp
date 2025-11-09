@@ -76,6 +76,7 @@ int getImageHeight(string tag) {
   int num = stoi(value.substr(0, value. size () - 2));
 return num;
 {
+  
 // string getImageSource(string tag)
 
 // string underscoresToSpaces(string str)
