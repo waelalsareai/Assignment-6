@@ -100,6 +100,9 @@ int main()
 string filenamePretty = underscoresToSpaces(filename);
 int width  = getImageWidth(tag);
 int height = getImageHeight(tag);
+int padV   = getVerticalPadding(tag);
+int padH   = getHorizontalPadding(tag);
+
 
     // Some sample inputs you can copy-paste to test your main
     // <image source="puppy.jpg" width="100px" height="200px">
