@@ -26,7 +26,8 @@ using namespace std;
 
 // Helper: extract value of an attribute name="VALUE"
 string getAttributeValue(const string& tag, const string& name) {
-  
+    string key = name + "=\"";
+  size_t pos = tag.find(key);
 
 // string getImageSource(string tag)
 
