@@ -87,7 +87,10 @@ int getVerticalPadding(string tag) {
   return stoi(first,substr(0, first.size() - 2));
 }
 
-
+// Get horizontal padding (second number in padding="10px 5px")
+int getHorizontalPadding(string tag) {
+    string value = getAttributeValue(tag, "padding");
+    if (value == "") return 0;  // no padding attribute
 
 // string getImageSource(string tag)
 
